@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
+
 import Logo from "./Logo";
 
-const NavBar = (children) => {
+const ErrorMessage = ({ children }) => {
   return (
     <nav className="nav-bar">
       <Logo />
@@ -9,4 +11,4 @@ const NavBar = (children) => {
   );
 };
 
-export default NavBar;
+export default ErrorMessage;
